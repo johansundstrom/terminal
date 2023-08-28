@@ -13,4 +13,4 @@
 * Notera riktiga namnet på porten i listan
 * Använd SCREEN kommandot i BASH
 
-```screen /dev/cu.usbserial<portnamn> 115200
+```screen /dev/cu.usbserial<portnamn> 115200```
