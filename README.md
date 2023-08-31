@@ -14,3 +14,15 @@
 * Använd SCREEN kommandot i BASH
 
 ```screen /dev/cu.usbserial<portnamn> 115200```
+
+## Lista SCREEN session
+
+```screen -ls```
+
+## Avsluta en SCREEN session (för att kunna återansluta senare)
+
+```screen -d 1643```
+
+## iTerm2 specifikt
+
+* Session - Status bar enabled - Composer
