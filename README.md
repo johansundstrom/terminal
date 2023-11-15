@@ -8,9 +8,10 @@
 
 * Öppna t.ex Iterm2
 
+```ls /dev/cu*```
 ```ls /dev/ | grep cu.usbserial```
 
-* Notera riktiga namnet på porten i listan
+* Notera DEV-namnet på porten i listan
 * Använd SCREEN kommandot i BASH
 
 ```screen /dev/cu.usbserial<portnamn> 115200```
@@ -19,7 +20,7 @@
 
 ```screen -ls```
 
-## Avsluta en SCREEN session (för att kunna återansluta senare)
+## Avsluta befintlig SCREEN session (för att kunna återansluta)
 
 ```screen -d 1643```
 
