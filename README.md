@@ -9,6 +9,9 @@
 * Öppna t.ex Iterm2
 
 ```ls /dev/cu*```
+
+eller
+
 ```ls /dev/ | grep cu.usbserial```
 
 * Notera DEV-namnet på porten i listan
